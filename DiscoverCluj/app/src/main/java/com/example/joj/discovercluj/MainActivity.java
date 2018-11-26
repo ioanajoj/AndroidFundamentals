@@ -15,11 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // programmatically set font to title text
-        TextView textview = (TextView) findViewById(R.id.title_textView);
-        Typeface font = Typeface.createFromAsset(getApplicationContext().getAssets(), "font/yanonekaffeesatz_regular.ttf");
-        textview.setTypeface(font);
+        getSupportActionBar().hide();
 
         final ImageButton firstButton = (ImageButton) findViewById(R.id.image_button_1);
         firstButton.setOnClickListener(new View.OnClickListener() {
