@@ -27,7 +27,7 @@
                 android:layout_height="66dp"
                 android:layout_column="0"
                 android:layout_margin="2dp"
-                android:fontFamily="@font/yanonekaffeesatz_bo"
+                android:fontFamily="@font/yanonekaffeesatz_bold"
                 android:gravity="center_vertical"
                 android:text="@string/settings_set"
                 android:textColor="#FFFFFF"
@@ -79,7 +79,8 @@
                 android:layout_height="66dp"
                 android:layout_column="0"
                 android:layout_margin="2dp"
-                android:fontFamily="@font/yanonekaffeesatz_bo"
+                android:fontFamily="@font/yanonekaffeesatz_bold
+"
                 android:gravity="center_vertical"
                 android:singleLine="false"
                 android:text="@string/settings_About"
