@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="title_colour">#FFFFFF</color>
+    <color name="open_settings_background">#2d2e2c</color>
+    <color name="open_settings_text">#cfcfcf</color>
 </resources>
