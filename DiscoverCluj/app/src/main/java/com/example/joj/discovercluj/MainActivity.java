@@ -2,7 +2,6 @@ package com.example.joj.discovercluj;
 
 import android.content.Intent;
 import android.graphics.Typeface;
-import android.support.v4.view.MotionEventCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -22,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
         final ImageButton firstButton = (ImageButton) findViewById(R.id.image_button_1);
         firstButton.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +68,9 @@ public class MainActivity extends AppCompatActivity {
                 String msg = "Access settings";
                 Toast toast = Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT);
                 toast.show();
+
+                Intent intent = new Intent(MainActivity.this, OpenSettings.class);
+                startActivity(intent);
             }
         });
 
