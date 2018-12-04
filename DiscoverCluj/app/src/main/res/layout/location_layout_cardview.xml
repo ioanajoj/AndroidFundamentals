@@ -14,8 +14,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         app:cardCornerRadius="4dp"
-        app:cardElevation="2dp"
-        android:background="#2B2B2B">
+        app:cardElevation="2dp">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -42,6 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
+                android:fontFamily="@font/yanonekaffeesatz_bold"
                 android:text="@string/location_first_label"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -55,6 +55,7 @@
                 android:layout_marginTop="8dp"
                 android:text="some title"
                 android:textSize="20sp"
+                android:fontFamily="@font/yanonekaffeesatz_regular"
                 app:layout_constraintStart_toEndOf="@+id/location_name_label"
                 app:layout_constraintTop_toBottomOf="@+id/location_imageview" />
 
@@ -67,6 +68,7 @@
                 android:layout_marginBottom="8dp"
                 android:text="@string/location_second_label"
                 android:textSize="20sp"
+                android:fontFamily="@font/yanonekaffeesatz_regular"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/location_name_label" />
@@ -79,6 +81,7 @@
                 android:layout_marginTop="8dp"
                 android:text="some address"
                 android:textSize="20sp"
+                android:fontFamily="@font/yanonekaffeesatz_regular"
                 app:layout_constraintStart_toEndOf="@+id/location_address_label"
                 app:layout_constraintTop_toBottomOf="@+id/location_name_label" />
 

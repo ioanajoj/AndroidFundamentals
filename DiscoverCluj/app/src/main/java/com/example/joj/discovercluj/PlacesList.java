@@ -17,7 +17,7 @@ public class PlacesList extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.complex_view);
+        setContentView(R.layout.recycler_view);
 
         theRecyclerView = (RecyclerView) findViewById(R.id.the_recycler_view);
 
